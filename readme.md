@@ -21,7 +21,11 @@ Simple extensions for React, Redux and Graphql in JS/TS with ES7 syntax
     "javascript": "javascriptreact"
   },
 ```
-
+or 
+```
+"emmet.triggerExpansionOnTab": true,
+"files.associations": { "*.js": "javascriptreact" }
+```
 #### _Live Server_
 
 Launch a development local Server with live reload feature for static & dynamic pages
