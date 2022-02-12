@@ -2,7 +2,7 @@
 
 ## EXTENSIONS
 
-![alt text](./01-Ext.png)
+![alt text](https://github.com/AbderrazakO/VS-Code-Settings/blob/main/01-Ext.PNG)
 
 #### _Auto Rename Tag_
 
@@ -34,7 +34,7 @@ Launch a development local Server with live reload feature for static & dynamic 
 
 Provides syntax highlighting and bracket matching for MDX (JSX in Markdown) files.
 
-![alt text](./02-Ext.png)
+![alt text](https://github.com/AbderrazakO/VS-Code-Settings/blob/main/02-Ext.PNG)
 
 #### _Prettier - Code formatter_
 
