@@ -3,7 +3,7 @@
   "files.autoSave": "onFocusChange",
   "editor.tabSize": 1,
   "editor.wordWrap": "on",
-  "terminal.integrated.fontSize": 22,
+  "terminal.integrated.fontSize": 20,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -20,5 +20,22 @@
   },
   "editor.cursorBlinking": "expand",
   "explorer.confirmDelete": false,
-  "workbench.colorTheme": "Palenight Theme"
+  "workbench.colorTheme": "Palenight Theme",
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "debug.terminal.clearBeforeReusing": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": { "source": "PowerShell", "icon": "terminal-powershell" },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "icon": "terminal-cmd"
+    },
+    "GitBash": {
+      "path": ["C:\\Program Files\\Git\\bin\\bash.exe"],
+      "icon": "terminal-bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "GitBash"
 }
